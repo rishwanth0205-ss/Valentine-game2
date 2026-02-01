@@ -1,40 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
 body {
   margin: 0;
   height: 100vh;
-  background: #0f0f14;
+  background: linear-gradient(135deg, #0f0f14, #1b1b2f, #16213e);
+  background-size: 400% 400%;
+  animation: bgMove 12s ease infinite;
   color: white;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: hidden;
+}
+
+@keyframes bgMove {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
 }
 
 #game {
   text-align: center;
   max-width: 600px;
+  padding: 20px;
+  z-index: 2;
 }
 
 h1 {
-  white-space: pre-line; 
-  letter-spacing: normal; 
+  white-space: pre-line;
+  letter-spacing: normal;
+  text-shadow: 0 0 12px rgba(255, 180, 200, 0.6);
+  animation: glow 2.5s ease-in-out infinite alternate;
 }
 
+@keyframes glow {
+  from {
+    text-shadow: 0 0 8px rgba(255, 180, 200, 0.4);
+  }
+  to {
+    text-shadow: 0 0 18px rgba(255, 120, 160, 0.9);
+  }
+}
 
 button {
   margin: 10px;
-  padding: 12px 20px;
+  padding: 12px 22px;
   font-size: 16px;
-  background: #ff4d6d;
+  background: linear-gradient(135deg, #ff4d6d, #ff758f);
   color: white;
   border: none;
-  border-radius: 8px;
+  border-radius: 999px;
   cursor: pointer;
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 8px 25px rgba(255, 77, 109, 0.4);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
 }
 
 button:hover {
-  transform: scale(1.05);
-  box-shadow: 0 6px 15px rgba(255, 77, 109, 0.4);
+  transform: scale(1.08);
+  box-shadow: 0 12px 30px rgba(255, 77, 109, 0.6);
 }
 
 .fade {
@@ -49,5 +73,12 @@ button:hover {
   to {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+
+@keyframes fall {
+  to {
+    transform: translateY(110vh) rotate(360deg);
   }
 }
