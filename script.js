@@ -131,7 +131,7 @@ I feel like I would do whatever I can for you.`,
 
     case 12:
       typeText(
-`Take all the time you need.
+`Take all the time you need. I will be waiting for your response.
 Happy Valentine’s Day ❤️`
       );
       break;
