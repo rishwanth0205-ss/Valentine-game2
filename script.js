@@ -42,7 +42,7 @@ function showStep(step) {
     case 1:
       typeText("Do you want to play a small game?", () => {
         addButton("Yes", 2);
-        addButton("Yes, nigger", 2);
+        addButton("Yes", 2);
       });
       break;
 
@@ -95,8 +95,9 @@ but I think I fell for you.`,
 
     case 8:
       typeText(
-`I've liked you since the beginning of 2025. \nI’m not forcing you, I’m not asking for anything,
-and I’m not expecting anything from you. I just wanted to let you know that I like you...and by liking you I mean a LOT.`,
+`I've liked you since the beginning of 2025.
+I’m not forcing you, I’m not asking for anything,
+and I’m not expecting anything from you. I just wanted to let you know that I like you — and by liking you I mean a lot.`,
 () => addButton("Continue", 9)
       );
       break;
