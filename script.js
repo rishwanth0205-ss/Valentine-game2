@@ -42,7 +42,7 @@ function showStep(step) {
     case 1:
       typeText("Do you want to play a small game?", () => {
         addButton("Yes", 2);
-        addButton("Yes", 2);
+        addButton("Yes, nigg", 2);
       });
       break;
 
@@ -58,12 +58,12 @@ function showStep(step) {
       typeText("Pick a vibe:", () => {
         addButton("Late night music 🎧", 4);
         addButton("Quiet café ☕", 4);
-        addButton("Laughing at kulli jokes 😂", 4);
+        addButton("Laughing at dumb things 😂", 4);
       });
       break;
 
     case 4:
-      typeText("Analyzing choices....\nundu ra mowa🐭", () => {
+      typeText("Analyzing choices...\nundu ra mowa", () => {
         setTimeout(() => showStep(5), 2000);
       });
       break;
@@ -78,7 +78,7 @@ And according to my critical thinking calculations…`,
       );
       break;
 
-    case 6:
+    case 6:   
       typeText(
 `I like you.`,
 () => addButton("Continue", 7)
@@ -96,8 +96,8 @@ but I think I fell for you.`,
     case 8:
       typeText(
 `I've liked you since the beginning of 2025.
-I’m not forcing you, I’m not asking for anything,
-and I’m not expecting anything from you. I just wanted to let you know that I like you — and by liking you I mean a lot.`,
+I'm not forcing you, I'm not asking for anything,
+and I'm not expecting anything from you. I just wanted to let you know that I like you... and by liking you I mean a LOT.`,
 () => addButton("Continue", 9)
       );
       break;
@@ -106,7 +106,7 @@ and I’m not expecting anything from you. I just wanted to let you know that I 
       typeText(
 `If you feel the same way, you can email me saying "hello".
 If you’re confused, you can send "meh".
-But if you never liked me or like someone else you can send anything else or just an empty email.
+But if you never liked me or like someone else you can send anything else or just nothing.
 
 Email: rishwanth0205@gmail.com`,
 () => addButton("Continue", 10)
@@ -122,7 +122,7 @@ Email: rishwanth0205@gmail.com`,
 
     case 11:
       typeText(
-`I never bought any kind of gift to anyone with the sole exception of you.
+`I never bought any kind of gift for anyone with the sole exception of you.
 I want to buy things for you, I want to see you smile, I want to go to movies with you, I want to hang out with you, I want to be with you.
 I feel like I would do whatever I can for you.`,
 () => addButton("Continue", 12)
@@ -131,7 +131,7 @@ I feel like I would do whatever I can for you.`,
 
     case 12:
       typeText(
-`Take all the time you need. I will wait for your response,
+`Take all the time you need.
 Happy Valentine’s Day ❤️`
       );
       break;
