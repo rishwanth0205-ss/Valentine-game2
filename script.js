@@ -78,7 +78,7 @@ And according to my critical thinking calculations…`,
       );
       break;
 
-    case 6;
+    case 6:
       typeText(
 `I like you.`,
 () => addButton("Continue", 7)
