@@ -34,7 +34,7 @@ function showStep(step) {
   switch (step) {
 
     case 0:
-      typeText("Hello, Sneha (Laddu).", () => {
+      typeText("Hi ra mowa.", () => {
         addButton("Continue", 1);
       });
       break;
@@ -42,7 +42,7 @@ function showStep(step) {
     case 1:
       typeText("Do you want to play a small game?", () => {
         addButton("Yes", 2);
-        addButton("Yes, nigg", 2);
+        addButton("Yes, nigger", 2);
       });
       break;
 
@@ -58,7 +58,7 @@ function showStep(step) {
       typeText("Pick a vibe:", () => {
         addButton("Late night music 🎧", 4);
         addButton("Quiet café ☕", 4);
-        addButton("Laughing at dumb things 😂", 4);
+        addButton("Laughing at erripuku things 😂", 4);
       });
       break;
 
