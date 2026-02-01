@@ -28,14 +28,13 @@ function typeText(message, callback) {
   }, 35);
 }
 
-
 function showStep(step) {
   clearButtons();
 
   switch (step) {
 
     case 0:
-      typeText("Hello, Sneha(Laddu).", () => {
+      typeText("Hello, Sneha (Laddu).", () => {
         addButton("Continue", 1);
       });
       break;
@@ -43,7 +42,7 @@ function showStep(step) {
     case 1:
       typeText("Do you want to play a small game?", () => {
         addButton("Yes", 2);
-        addButton("Yes", 2);
+        addButton("Yes, of course!", 2);
       });
       break;
 
@@ -77,52 +76,54 @@ you’re short and smart.
 And according to my critical monkey thinking calculations…
 
 I think I like you.`,
-        () => addButton("Continue", 6)
+() => addButton("Continue", 6)
       );
       break;
 
     case 6:
       typeText(
 `I don’t know what happened, or how it happened,
-but I think I fell for you.`
-         () => addButton("Continue", 7)
-        );
-        break;
-      
+but I think I fell for you.`,
+() => addButton("Continue", 7)
+      );
+      break;
+
     case 7:
       typeText(
 `I’m not forcing you, I’m not asking for anything,
-and I’m not expecting anything from you.`
-         () => addButton("Continue", 8)
-        );
-        break;
-      
+and I’m not expecting anything from you.`,
+() => addButton("Continue", 8)
+      );
+      break;
+
     case 8:
       typeText(
 `If you feel the same way, you can email me saying "hello".
 If you’re confused, you can send "meh".
-But If you never liked me or like someone else you can send anything else or just nothing.
+But if you never liked me or like someone else you can send anything else or just nothing.
 
-Email: rishwanth0205@gmail.com`
-         () => addButton("Continue", 9)
-        );
-        break;
+Email: rishwanth0205@gmail.com`,
+() => addButton("Continue", 9)
+      );
+      break;
 
-    case 9;
+    case 9:
       typeText(
-`The next one may sound cringe and it probably is but I really do feel like it.`
-         () => addButton("Continue", 10)
-        );
-        break;
+`The next one may sound cringe and it probably is but I really do feel like it.`,
+() => addButton("Continue", 10)
+      );
+      break;
 
-    case 10;
+    case 10:
       typeText(
-`I never spent any amount of mmoney on anyone with the sole exception of You. \nI want to buy things for you, I want to see you smile, I want to go to movies with you, I want to hangout with you, I want to be with you. \nI feel like I would do whatever I can for you.`
-         () => addButton("Continue", 11)
-        );
-        break;
+`I never spent any amount of money on anyone with the sole exception of you.
+I want to buy things for you, I want to see you smile, I want to go to movies with you, I want to hang out with you, I want to be with you.
+I feel like I would do whatever I can for you.`,
+() => addButton("Continue", 11)
+      );
+      break;
 
-    case 11;
+    case 11:
       typeText(
 `Take all the time you need.
 Happy Valentine’s Day ❤️`
