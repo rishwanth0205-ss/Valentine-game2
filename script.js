@@ -95,7 +95,7 @@ but I think I fell for you.`,
 
     case 8:
       typeText(
-`I've liked you since the beginning of 2025.
+`I've liked you since the beginning of 2025(1 year).
 I'm not forcing you, I'm not asking for anything,
 and I'm not expecting anything from you. I just wanted to let you know that I like you... and by liking you I mean a LOT.`,
 () => addButton("Continue", 9)
@@ -105,7 +105,7 @@ and I'm not expecting anything from you. I just wanted to let you know that I li
     case 9:
       typeText(
 `If you feel the same way, you can email me saying "hello".
-If you’re confused, you can send "meh".
+If you’re confused about it, you can send "meh".
 But if you never liked me or like someone else you can send anything else or just nothing.
 
 Email: rishwanth0205@gmail.com`,
@@ -124,7 +124,8 @@ Email: rishwanth0205@gmail.com`,
       typeText(
 `I never bought any kind of gift for anyone with the sole exception of you.
 I want to buy things for you, I want to see you smile, I want to go to movies with you, I want to hang out with you, I want to be with you.
-I feel like I would do whatever I can for you.`,
+I feel like I would do whatever I can for you.
+I literally came to India just so that I can see you in person and give you the gift.`,
 () => addButton("Continue", 12)
       );
       break;
