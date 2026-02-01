@@ -42,7 +42,7 @@ function showStep(step) {
     case 1:
       typeText("Do you want to play a small game?", () => {
         addButton("Yes", 2);
-        addButton("Yes, of course!", 2);
+        addButton("Yes, nigger", 2);
       });
       break;
 
@@ -58,12 +58,12 @@ function showStep(step) {
       typeText("Pick a vibe:", () => {
         addButton("Late night music 🎧", 4);
         addButton("Quiet café ☕", 4);
-        addButton("Laughing at dumb things 😂", 4);
+        addButton("Laughing at kulli jokes 😂", 4);
       });
       break;
 
     case 4:
-      typeText("Analyzing choices...\nthinking monkey 🐵", () => {
+      typeText("Analyzing choices....\nundu ra mowa🐭", () => {
         setTimeout(() => showStep(5), 2000);
       });
       break;
@@ -71,61 +71,66 @@ function showStep(step) {
     case 5:
       typeText(
 `According to this game,
-you’re short and smart.
+you’re short💀.
 
-And according to my critical monkey thinking calculations…
-
-I think I like you.`,
+And according to my critical thinking calculations…`,
 () => addButton("Continue", 6)
       );
       break;
 
-    case 6:
+    case 6;
       typeText(
-`I don’t know what happened, or how it happened,
-but I think I fell for you.`,
+`I like you.`,
 () => addButton("Continue", 7)
       );
       break;
 
     case 7:
       typeText(
-`I’m not forcing you, I’m not asking for anything,
-and I’m not expecting anything from you.`,
+`I don’t know what happened, or how it happened,
+but I think I fell for you.`,
 () => addButton("Continue", 8)
       );
       break;
 
     case 8:
       typeText(
-`If you feel the same way, you can email me saying "hello".
-If you’re confused, you can send "meh".
-But if you never liked me or like someone else you can send anything else or just nothing.
-
-Email: rishwanth0205@gmail.com`,
+`I've liked you since the beginning of 2025. \nI’m not forcing you, I’m not asking for anything,
+and I’m not expecting anything from you. I just wanted to let you know that I like you...and by liking you I mean a LOT.`,
 () => addButton("Continue", 9)
       );
       break;
 
     case 9:
       typeText(
-`The next one may sound cringe and it probably is but I really do feel like it.`,
+`If you feel the same way, you can email me saying "hello".
+If you’re confused, you can send "meh".
+But if you never liked me or like someone else you can send anything else or just an empty email.
+
+Email: rishwanth0205@gmail.com`,
 () => addButton("Continue", 10)
       );
       break;
 
     case 10:
       typeText(
-`I never spent any amount of money on anyone with the sole exception of you.
-I want to buy things for you, I want to see you smile, I want to go to movies with you, I want to hang out with you, I want to be with you.
-I feel like I would do whatever I can for you.`,
+`The next one may sound cringe and it probably is but I really do feel like it.`,
 () => addButton("Continue", 11)
       );
       break;
 
     case 11:
       typeText(
-`Take all the time you need.
+`I never bought any kind of gift to anyone with the sole exception of you.
+I want to buy things for you, I want to see you smile, I want to go to movies with you, I want to hang out with you, I want to be with you.
+I feel like I would do whatever I can for you.`,
+() => addButton("Continue", 12)
+      );
+      break;
+
+    case 12:
+      typeText(
+`Take all the time you need. I will wait for your response,
 Happy Valentine’s Day ❤️`
       );
       break;
